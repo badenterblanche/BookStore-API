@@ -78,7 +78,7 @@ namespace BookStore_API
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
+            //Swagger
             app.UseSwagger();
             app.UseSwaggerUI(x => {
                 x.SwaggerEndpoint("/swagger/v1/swagger.json", "Book Store API");
